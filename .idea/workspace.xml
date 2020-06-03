@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1751c78f-8629-4bdb-96b6-e6b198028aff" name="Default Changelist" comment="" />
+    <list default="true" id="1751c78f-8629-4bdb-96b6-e6b198028aff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springdatasolr/TestSpringDataSolr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springdatasolr/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-solr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr域配置/schema.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solr域配置/schema.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr域配置/solr域配置" beforeDir="false" afterPath="$PROJECT_DIR$/solr域配置/solr域配置" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/commons-io-2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/httpclient-4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/httpcore-4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/httpmime-4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jcl-over-slf4j-1.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jul-to-slf4j-1.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/junit-4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/noggit-0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/slf4j-api-1.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/slf4j-log4j12-1.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/solr-solrj-4.10.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/wstx-asl-3.2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/zookeeper-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solrj/TestSolr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solrj/TestSolrJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Learn_Solr.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/solrj/TestSolr.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,16 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -35,6 +69,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1cnxOWveBkT2DCjtb9cdgb1OjOG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,66 +100,82 @@
       <recent name="H:\IDEA_workspace\Learn_Solr\src\main\java\solrj" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSolr.testGetAll">
-    <configuration name="TestSolr.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSpringDataSolr.testGetItem2">
+    <configuration name="TestSpringDataSolr.testAddItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learn_Solr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solrj.*" />
+          <option name="PATTERN" value="springdatasolr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solrj" />
-      <option name="MAIN_CLASS_NAME" value="solrj.TestSolr" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="PACKAGE_NAME" value="springdatasolr" />
+      <option name="MAIN_CLASS_NAME" value="springdatasolr.TestSpringDataSolr" />
+      <option name="METHOD_NAME" value="testAddItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSolr.testDeleteAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpringDataSolr.testAddItemList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learn_Solr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solrj.*" />
+          <option name="PATTERN" value="springdatasolr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solrj" />
-      <option name="MAIN_CLASS_NAME" value="solrj.TestSolr" />
-      <option name="METHOD_NAME" value="testDeleteAll" />
+      <option name="PACKAGE_NAME" value="springdatasolr" />
+      <option name="MAIN_CLASS_NAME" value="springdatasolr.TestSpringDataSolr" />
+      <option name="METHOD_NAME" value="testAddItemList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSolr.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpringDataSolr.testDeleteItemAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learn_Solr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solrj.*" />
+          <option name="PATTERN" value="springdatasolr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solrj" />
-      <option name="MAIN_CLASS_NAME" value="solrj.TestSolr" />
-      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="PACKAGE_NAME" value="springdatasolr" />
+      <option name="MAIN_CLASS_NAME" value="springdatasolr.TestSpringDataSolr" />
+      <option name="METHOD_NAME" value="testDeleteItemAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSolr.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpringDataSolr.testGetItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learn_Solr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solrj.*" />
+          <option name="PATTERN" value="springdatasolr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solrj" />
-      <option name="MAIN_CLASS_NAME" value="solrj.TestSolr" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="PACKAGE_NAME" value="springdatasolr" />
+      <option name="MAIN_CLASS_NAME" value="springdatasolr.TestSpringDataSolr" />
+      <option name="METHOD_NAME" value="testGetItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringDataSolr.testGetItem2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learn_Solr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springdatasolr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springdatasolr" />
+      <option name="MAIN_CLASS_NAME" value="springdatasolr.TestSpringDataSolr" />
+      <option name="METHOD_NAME" value="testGetItem2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,10 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSolr.testGetAll" />
-        <item itemvalue="JUnit.TestSolr.testUpdate" />
-        <item itemvalue="JUnit.TestSolr.testCreate" />
-        <item itemvalue="JUnit.TestSolr.testDeleteAll" />
+        <item itemvalue="JUnit.TestSpringDataSolr.testGetItem2" />
+        <item itemvalue="JUnit.TestSpringDataSolr.testAddItemList" />
+        <item itemvalue="JUnit.TestSpringDataSolr.testGetItem" />
+        <item itemvalue="JUnit.TestSpringDataSolr.testAddItem" />
+        <item itemvalue="JUnit.TestSpringDataSolr.testDeleteItemAll" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +317,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591178126856</updated>
-      <workItem from="1591178128089" duration="506000" />
+      <workItem from="1591178128089" duration="7674000" />
     </task>
     <servers />
   </component>
@@ -271,25 +325,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1591178498622">
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1591184231228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591178498622" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1591178498622">
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591184231228" />
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1591186049364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591178498622" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1591178498622">
+    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1591186049364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591178498622" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1591178498622">
+    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1591186049364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591178498622" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1591178420460">
+    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1591186049364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591178420460" />
+    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1591186049364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1591186049364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1591186049364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1591186049364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591186049364" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1591181997827">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591181997827" />
+    <state x="449" y="95" key="spring file set editor" timestamp="1591179641229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1591179641229" />
   </component>
 </project>
