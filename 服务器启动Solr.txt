@@ -8,7 +8,7 @@
 1. Solr
    1). Tomcat
        启动: /usr/local/dev/solr/tomcat/bin/startup.sh
-       查看: 使用浏览器访问192.168.70.3:8080, 观察是否显示Tomcat的主页;
+       查看: 使用浏览器访问"http://192.168.70.3:8080", 观察是否显示Tomcat的主页;
        停止: /usr/local/dev/solr/tomcat/bin/shutdown.sh
    2). Solr是一个JavaWeb应用, 我们部署在Tomcat中, Tomcat启动后, 可以直接通过浏览器访问, 地址:
        http://192.168.70.3:8080/solr
